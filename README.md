@@ -32,7 +32,7 @@ Example:
 
 ```
 module "ecs-cluster" {
-  source      = "git@github.com:studiographene/tf-modules.git//ecs-cluster"
+  source      = "git@github.com:nohamkumar/aws-ecs-cluster.git"
   namespace   = "sg"
   environment = "dev"
 }
